@@ -4,7 +4,7 @@ import json
 class MovieAPI:
     def __init__(self,base_url="https://api.themoviedb.org/3"):
         self.base_url = base_url
-        self.api_key = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiZTAyNzgyZmJkZDNiMzdkODZhMzIyMmZiODRkOTBhMiIsInN1YiI6IjY1ZGUzMjRlMzk1NDlhMDE4NzRmZTVlNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.scV21wmpDTTQndB5FSFQIWF3GPdZ-UqTF5Nstz141yg"
+        self.api_key = "NONE"
         self.headers = {
             "accept": "application/json",
             "content-type": "application/json",
