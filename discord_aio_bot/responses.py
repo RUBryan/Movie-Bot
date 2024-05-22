@@ -25,7 +25,7 @@ async def send_message(message):
 
 
 def run_discord_bot():
-    TOKEN = 'MTE5Njk4MzAyMDIwNTM4MzczMQ.Giv4bu.DDHtW40wBuYBWgg7bS_6c28jrTvddMjKxpK3WQ'
+    TOKEN = 'NOPE'
     client = discord.Client(intents=intents)
 
     @client.event
